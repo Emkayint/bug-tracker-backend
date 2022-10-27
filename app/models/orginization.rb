@@ -1,2 +1,0 @@
-class Orginization < ApplicationRecord
-end

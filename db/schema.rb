@@ -33,7 +33,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_10_27_064027) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "orginizations", force: :cascade do |t|
+  create_table "organizations", force: :cascade do |t|
     t.string "name"
     t.string "description"
     t.string "country"

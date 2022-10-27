@@ -9,7 +9,7 @@ puts '*******************************Started Seeding****************************
 def bycrypt(password)
   pass = BCrypt::Password.create(password)
 end
-org1 = Orginization.create(name: "The Onion Project", description: "Changing the how we write code", country: "Kenya")
+org1 = Organization.create(name: "The Onion Project", description: "Changing the how we write code", country: "Kenya")
 
 user1 = User.create(
   username: "Sammy",

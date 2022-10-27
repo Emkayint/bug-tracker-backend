@@ -1,4 +1,4 @@
-class OrginizationsController < ApplicationController
+class OrganizationsController < ApplicationController
 
 
   def create
