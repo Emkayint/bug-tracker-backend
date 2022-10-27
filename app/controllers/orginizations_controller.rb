@@ -1,0 +1,2 @@
+class OrginizationsController < ApplicationController
+end
