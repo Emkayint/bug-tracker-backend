@@ -1,5 +1,11 @@
 class CommentsController < ApplicationController
 
+  def index 
+    comments = @current_user.comments
+
+    render json: comments, status: :ok
+  end
+
   def show
     comment = Comment.find_by_id(params[:id])
     render json: comment, status: :ok
